@@ -18,6 +18,8 @@ dependencies {
     testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 }
 
+org.gradle.daemon=false
+
 sonarqube {
     properties {
         property 'sonar.host.url', 'http://192.168.56.50:30003'
